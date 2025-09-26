@@ -8,12 +8,6 @@ group = 'kr.co.tmfflavndn'
 version = '0.0.1-SNAPSHOT'
 description = 'spring-github-actions-app'
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
-}
-
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
